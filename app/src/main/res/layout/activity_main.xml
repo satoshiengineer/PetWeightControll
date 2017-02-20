@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/graybackground"
+tools:context="com.example.msi.petweightcontroll.MainActivity"
+android:layout_centerVertical="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dogdiet"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textSize = "30sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/circlebutton"
+        android:layout_marginBottom="150dp"
+        android:onClick="onclick" />
+
+</FrameLayout>

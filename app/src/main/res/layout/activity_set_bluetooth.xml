@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/graybackground"
+    tools:context="com.example.msi.petweightcontroll.SetBluetooth">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/background"
+        android:layout_marginTop="110dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dogdiet"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:textSize = "30sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="320dp"
+        android:layout_height="230dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/tag"
+        android:layout_marginLeft="21dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="綁定裝置"
+        android:id="@+id/textView2"
+        android:layout_gravity="left|bottom"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="29dp"
+        android:layout_marginBottom="191dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="下一頁"
+        android:id="@+id/textView3"
+        android:layout_gravity="right|bottom"
+        android:textColor="#ffffff"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="191dp"
+        android:onClick="next" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="下一頁"
+        android:id="@+id/bluetoothtext"
+        android:layout_gravity="right|bottom"
+        android:textColor="#ffffff"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="191dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bluetooth"
+        android:layout_gravity="left|top"
+        android:background="@drawable/circlebutton"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Petfile"
+        android:layout_gravity="left|top"
+        android:background="@drawable/circlebutton"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:onClick="next" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pettime"
+        android:layout_gravity="left|top"
+        android:background="@drawable/circlebutton"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="20dp"
+        android:onClick="nextToPettime" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kal"
+        android:layout_gravity="left|top"
+        android:background="@drawable/circlebutton"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"/>
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:id="@+id/dog"
+        android:layout_gravity="left|top"
+        android:background="@drawable/dog"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="70dp"
+        android:onClick="Click" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="尚未開啟藍芽"
+        android:id="@+id/myLabel"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="100dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/blutoothvalue"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="46dp"
+            android:layout_marginLeft="130dp"
+            android:layout_column="24"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="84dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
